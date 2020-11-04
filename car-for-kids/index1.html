@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car FOr Kids</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/images/default-logo.png" alt="brand-logo"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button">
+                                About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="main-nav-right">
+                        <p> <span><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                    class="bi bi-telephone-outbound-fill" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
+                                </svg> </span> 866-634-8395</p>
+                        <a class="link-btn" href="#"> Donate now </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <section class="welcome-wrap">
+        <div class="welcome">
+            <div class="container">
+                <h1 class="welcome__title"> <span> Welcome to</span>
+                    KIDS CAR !</h1>
+                <div class="row ">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="item one">
+                            <h5 class="item-title"> Make Them happy </h5>
+                            <p class="item-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum
+                                dolore eu fugiat nulla</p>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="item two">
+                            <h5 class="item-title">Let't do for Children</h5>
+                            <p class="item-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                dolore eu fugiat nulla Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum
+                                dolore eu fugiat nulla</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="welcome-wrap">
+        <div class="welcome">
+            <div class="container">
+                <h1 class="welcome__title"> <span> Welcome to</span>
+                    KIDS CAR !</h1>
+                <div class="donate ">
+                    <div class="row">
+                        <div class="col-md-10 m-auto">
+                            <ul class=" donate-tabs " role="tablist">
+                                <li data-name="car" class="donate-tab active">
+                                    <a class="donate-tab-link ">
+                                        <div class="button-wrap">
+                                            <img src="./assets/images/roundcar.svg">
+                                            <p>Cars</p>
+                                        </div>
+
+                                    </a>
+                                </li>
+                                <li data-name="bike" class="donate-tab">
+                                    <a class="donate-tab-link">
+                                        <div class="button-wrap">
+                                            <img src="./assets/images/roundbike.svg">
+                                            <p>Bike</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li data-name="truck" class="donate-tab">
+                                    <a class="donate-tab-link">
+                                        <div class="button-wrap">
+                                            <img src="./assets/images/roundbike.svg">
+                                            <p>Truck</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li data-name="boat" class="donate-tab">
+                                    <a class="donate-tab-link">
+                                        <div class="button-wrap">
+                                            <img src="./assets/images/roundbike.svg">
+                                            <p>Boats</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li data-name="other" class="donate-tab">
+                                    <a class="donate-tab-link">
+                                        <div class="button-wrap">
+                                            <img src="./assets/images/roundtruc.svg">
+                                            <p>Cars</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="donate-form">
+                                <ol class="donate-form-steps">
+                                    <li id="inVe" class="donate-form-step active">Vehicle info </li>
+                                    <li id="inCont" class="donate-form-step">Contact info</li>
+                                </ol>
+                                <div class="col-md-9 m-auto">
+                                    <form id="vehicle-info">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div id="year" class="form-group">
+                                                    <label for="year">Year</label>
+                                                    <select class="form-control">
+                                                        <option>Year</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div id="make" class="form-group">
+                                                    <label for="exampleFormControlSelect1">Make</label>
+                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div id="model" class="form-group">
+                                                    <label for="exampleFormControlSelect1">Model</label>
+                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div id="mileage" class="form-group">
+                                                    <label for="exampleFormControlSelect1">Mileage</label>
+                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlSelect1">Does It Run?</label>
+                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlSelect1">Title
+                                                        Available?</label>
+                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="linkBtn">
+                                            <a onclick="clickNext(this)" type="submit" class="link-btn">Donate
+                                                my vehicale</a>
+                                        </div>
+                                    </form>
+                                    <form id="contact-info" class="d-none">
+                                        <div class="row">
+
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="firstname">First Name</label>
+                                                    <input type="text" class="form-control" id="firstname"
+                                                        placeholder="First Name">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="LastName">Last Name</label>
+                                                    <input type="text" class="form-control" id="LastName"
+                                                        placeholder="Last Name">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="email">Email </label>
+                                                    <input type="email " class="form-control" id="email"
+                                                        placeholder="Email ">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="phone">Phone </label>
+                                                    <input type="text " class="form-control" id="phone"
+                                                        placeholder="Phone ">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="form-group">
+                                                    <label for="address">Address </label>
+                                                    <input type="email " class="form-control" id="address"
+                                                        placeholder="Address ">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="city">City </label>
+                                                    <input type="text " class="form-control" id="city"
+                                                        placeholder="City ">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="state">State </label>
+                                                    <input type="text " class="form-control" id="state"
+                                                        placeholder="State ">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <label for="zip">Zip </label>
+                                                    <input type="text " class="form-control" id="zip"
+                                                        placeholder="Zip ">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="pic">Have Pics? Attach them here. </label>
+                                                    <input type="file" class="form-control" id="pic"
+                                                        placeholder="File ">
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="linkBtn">
+                                            <a type="submit " onclick="goBack()" class="link-btn back"><i
+                                                    class="fa fa-arrow-left"></i>
+                                                Go Back</a>
+                                            <a type="submit" class="link-btn">Donate my vehicale</a>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="list">
+                        <ul class="img-lists">
+                            <li><img src="assets/images/label-1.png" alt="/label-1.png"></li>
+                            <li><img src="assets/images/label-2.png" alt="/label-1.png"></li>
+                            <li><img src="assets/images/label-3.png" alt="/label-1.png"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="footer-logo">
+                        <img src="assets/images/default-logo.png" alt="footer logo">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h5 class="footer-title"> Quick Links</h5>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h5 class="footer-title"> Quick Links</h5>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h5 class="footer-title"> Quick Links</h5>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h5 class="footer-title"> Quick Links</h5>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        const tab = document.querySelectorAll('.donate-tabs li')
+        const activeTab = document.querySelectorAll('.donate-tabs li.active')
+        const vehicle = document.getElementById('vehicle-info');
+        const contact = document.getElementById('contact-info');
+        const veh = document.getElementById('inVe');
+        const con = document.getElementById('inCont');
+
+        for (let index = 0; index < tab.length; index++) {
+            const element = tab[index];
+            // console.log(element.classList.contains('active'))
+            element.addEventListener("click", function (e) {
+
+                for (let index = 0; index < tab.length; index++) {
+                    var elem = tab[index];
+                    var ac = elem.classList.contains('active')
+                    if (ac === true) {
+                        elem.classList.remove('active')
+                    }
+                }
+                element.classList.add('active')
+                // vehicle.innerHTML
+                if (element.dataset.name == 'car') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = ` <div class="row">
+                        <div class="col-md-4">
+                            <div id="year" class="form-group">
+                                <label for="year">Year</label>
+                                <select class="form-control">
+                                    <option>Year</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="make" class="form-group">
+                                <label for="exampleFormControlSelect1">Make</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="model" class="form-group">
+                                <label for="exampleFormControlSelect1">Model</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="mileage" class="form-group">
+                                <label for="exampleFormControlSelect1">Mileage</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Does It Run?</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Title
+                                    Available?</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="linkBtn">
+                        <a onclick="clickNext(this)" type="submit" class="link-btn">Donate
+                            my vehicale</a>
+                    </div>`;
+                }
+                if (element.dataset.name == 'bike') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = `I Love U `
+                }
+                if (element.dataset.name == 'boat') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = `I hate U `
+                }
+                if (element.dataset.name == 'truck') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = `I Like U `
+                }
+                if (element.dataset.name == 'other') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = `I Kiss U `
+                }
+
+                console.log(element.dataset.name)
+
+
+
+            });
+        }
+        // tab.click(function (i, elem) {
+        //     console.log(tab)
+        // });
+        // console.log(tab)
+
+        function clickNext(th) {
+            vehicle.classList.remove('active');
+            vehicle.classList.add('d-none');
+            veh.classList.remove('active');
+
+            contact.classList.remove('d-none');
+            contact.classList.add('active');
+            con.classList.add('active');
+        }
+
+        function goBack(th) {
+            contact.classList.remove('active');
+            con.classList.remove('active');
+            contact.classList.add('d-none');
+            vehicle.classList.remove('d-none');
+            vehicle.classList.add('active');
+            veh.classList.add('active');
+        }
+    </script>
+</body>
+
+</html>

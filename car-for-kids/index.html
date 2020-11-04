@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car FOr Kids</title>
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="assets/style/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <style>
+        .ads {
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            background-color: #ff8b44;
+            color: #ffffff;
+            padding: 10px 0px;
+        }
+
+        .ads p {
+            max-width: 1200px;
+            margin: auto;
+            line-height: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ads">
+        <p>
+            UPDATE: Kids Car Donations is currently accepting vehicle donations. Call 866-634-8395 to schedule an
+            unattended FREE pickup.
+
+        </p>
+        <p> To learn what actions we are taking to ensure you are protected when you donate a vehicle to Kids Car
+            Donations, please
+            click here.</p>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/images/default-logo.png" alt="brand-logo"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="main-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="main-nav-right">
+                        <p> <span><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                    class="bi bi-telephone-outbound-fill" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
+                                </svg> </span> 111-111-1111</p>
+                        <a class="link-btn" href="#"> Donate now </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="welcome-wrap">
+        <div class="welcome">
+            <div class="container">
+                <h1 class="welcome__title"> <span> Welcome to</span>
+                    Car For Kids!</h1>
+
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="donate ">
+                <div class="row">
+                    <div class="col-md-10 m-auto">
+                        <ul class=" donate-tabs " role="tablist">
+                            <li data-name="car" class="donate-tab active">
+                                <a class="donate-tab-link ">
+                                    <div class="button-wrap">
+                                        <img src="./assets/images/roundcar.svg">
+                                        <p>Cars</p>
+                                    </div>
+
+                                </a>
+                            </li>
+                            <li data-name="bike" class="donate-tab">
+                                <a class="donate-tab-link">
+                                    <div class="button-wrap">
+                                        <img src="./assets/images/roundbike.svg" alt="./assets/images/roundbike.svg">
+                                        <p>Bike</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-name="truck" class="donate-tab">
+                                <a class="donate-tab-link">
+                                    <div class="button-wrap">
+                                        <img src="./assets/images/roundtruck.svg" alt="./assets/images/roundtruck.svg">
+                                        <p>Truck</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-name="boat" class="donate-tab">
+                                <a class="donate-tab-link">
+                                    <div class="button-wrap">
+                                        <img src="./assets/images/roundboat.svg" alt="./assets/images/roundboat.svg">
+                                        <p>Boats</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li data-name="other" class="donate-tab">
+                                <a class="donate-tab-link">
+                                    <div class="button-wrap">
+                                        <img src="./assets/images/roundtruc.svg" alt="./assets/images/roundtruc.svg">
+                                        <p>Others</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="donate-form">
+                            <ol class="donate-form-steps">
+                                <li id="inVe" class="donate-form-step active">Vehicle info </li>
+                                <li id="inCont" class="donate-form-step">Contact info</li>
+                            </ol>
+                            <div class="col-md-9 m-auto">
+                                <form id="vehicle-info">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="year">Year</label>
+                                                <select class="form-control">
+                                                    <option>Year</option>
+                                                    <option>Unknown</option>
+                                                    <option>2020</option>
+                                                    <option>2019</option>
+                                                    <option>2018</option>
+                                                    <option>2017</option>
+                                                    <option>2016</option>
+                                                    <option>2015</option>
+                                                    <option>2014</option>
+                                                    <option>2013</option>
+                                                    <option>2012</option>
+                                                    <option>2011</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div id="make" class="form-group">
+                                                <label for="exampleFormControlSelect1">Make</label>
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>Unknown</option>
+                                                    <option>BMW</option>
+                                                    <option>Audi</option>
+                                                    <option>Honda</option>
+                                                    <option>Toyota</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div id="model" class="form-group">
+                                                <label for="exampleFormControlSelect1">Model</label>
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>Unknown</option>
+                                                    <option>Z3</option>
+                                                    <option>M4</option>
+                                                    <option>S4</option>
+                                                    <option>A8</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div id="mileage" class="form-group">
+                                                <label for="exampleFormControlSelect1">Mileage</label>
+                                                <input class="form-control" type="text" placeholder="Mileage">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label>Does It Run?</label>
+                                                <select class="form-control">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label ">Title      Available?</label>
+                                                <input class=" form-control" placeholder="Type Here">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="linkBtn">
+                                        <a onclick="clickNext(this)" type="submit" class="link-btn">Donate
+                                            my vehicale</a>
+                                    </div>
+                                </form>
+                                <form id="contact-info" class="d-none">
+                                    <div class="row">
+
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="firstname">First Name</label>
+                                                <input type="text" class="form-control" id="firstname"
+                                                    placeholder="First Name">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="LastName">Last Name</label>
+                                                <input type="text" class="form-control" id="LastName"
+                                                    placeholder="Last Name">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="email">Email </label>
+                                                <input type="email " class="form-control" id="email"
+                                                    placeholder="Email ">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="phone">Phone </label>
+                                                <input type="text " class="form-control" id="phone"
+                                                    placeholder="Phone ">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="form-group">
+                                                <label for="address">Address </label>
+                                                <input type="email " class="form-control" id="address"
+                                                    placeholder="Address ">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="city">City </label>
+                                                <input type="text " class="form-control" id="city" placeholder="City ">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="state">State </label>
+                                                <input type="text " class="form-control" id="state"
+                                                    placeholder="State ">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <label for="zip">Zip </label>
+                                                <input type="text " class="form-control" id="zip" placeholder="Zip ">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="pic">Have Pics? Attach them here. </label>
+                                                <input type="file" class="form-control" id="pic" placeholder="File ">
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="linkBtn">
+                                        <a type="submit " onclick="goBack()" class="link-btn back"><i
+                                                class="fa fa-arrow-left"></i>
+                                            Go Back</a>
+                                        <a type="submit" class="link-btn">Donate my vehicale</a>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="list">
+                                <ul class="img-lists">
+                                    <li><img src="assets/images/label-1.png" alt="/label-1.png"></li>
+                                    <li><img src="assets/images/label-2.png" alt="/label-1.png"></li>
+                                    <li><img src="assets/images/label-3.png" alt="/label-1.png"></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="weLove" class="weLove-wrap">
+        <div class="weLove">
+            <div class="weLove-title">
+                <h2>Why Choose Us</h2>
+            </div>
+            <div class="container">
+                <div class="weLove-content row">
+                    <div class="item col-md-3 col-sm-6">
+                        <span class="counter">100</span>
+                        <p>
+                            Million Dollars Raised</p>
+                    </div>
+                    <div class="item col-md-3 col-sm-6">
+                        <span class="counter"> 0</span>
+                        <p>
+                            Cost For You</p>
+                    </div>
+                    <div class="item col-md-3 col-sm-6">
+                        <span class="counter">100</span>
+                        <p>
+                            Million Donors Served</p>
+                    </div>
+                    <div class="item col-md-3 col-sm-6">
+                        <span class="counter">500</span>
+                        <p>
+                            Nonprofits Helped</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="process">
+        <div class="process">
+            <h2>The Cars for Kids Donation Process Is Quick & Easy!</h2>
+            <div class="container">
+                <ul class="process-list">
+                    <li class="process-list-item">
+                        <h4>Contact Us</h4>
+                        <span>Fill out the car donation form above or call us at 111-111-1111</span>
+                    </li>
+                    <li class="process-list-item">
+                        <h4>Schedule Pickup</h4>
+                        <span>Schedule your fast, free vehicle pickup at a time and place convenient for you.</span>
+                    </li>
+                    <li class="process-list-item">
+                        <h4>Receive Tax Deduction</h4>
+                        <span>Receive your IRS tax-deductible receipt and save on taxes when you donate your cars for
+                            nonprofit organizations!</span>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section id="toKids">
+        <div class="toKids">
+            <h2>Why Donate To Car for Kids</h2>
+
+            <div class="container">
+                <ol class="toKids-steps">
+                    <li class="toKids-step">Fast Pickup & Towing – At Time & Place Convenient for You</li>
+                    <li class="toKids-step">No Paperwork or DMV Hassles – We Handle Everything</li>
+                    <li class="toKids-step">Running or Non-Running Conditions Accepted</li>
+                    <li class="toKids-step">Certified IRS 501(c)3 Nonprofit Charity</li>
+                    <li class="toKids-step">Receive a Top Tax Deduction</li>
+                    <li class="toKids-step">Absolutely No Cost to You</li>
+                    <li class="toKids-step">100% Tax Deductible</li>
+
+                </ol>
+            </div>
+
+
+
+        </div>
+    </section>
+    <section id="donate-type">
+        <div class="donate-type">
+            <div class="container">
+                <h2 class="type-title">What Types of Vehicles Can I Donate?</h2>
+                <p class="sub-title">
+                    We accept many types of vehicles – in running or non-running condition! Not sure if your vehicle can
+                    be accepted?
+                    <br>
+                    <a href="tel:+1111-111-1111">Give us a call at 111-111-1111</a> .
+                </p>
+
+                <ul class="donate-type-items">
+                    <li class="donate-type-item">
+                        <img src="assets/images/roundcar.svg" alt="assets/images/roundcar.svg">
+
+                        Lorem, ipsum dolor sitris?
+                    </li>
+                    <li class="donate-type-item">
+                        <img src="assets/images/roundbike.svg" alt="assets/images/roundbike.svg">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                    </li>
+                    <li class="donate-type-item">
+                        <img src="assets/images/roundboat.svg" alt="assets/images/roundboat.svg">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis tempora deserunt, nulla minus
+
+                    </li>
+                    <li class="donate-type-item">
+                        <img src="assets/images/roundovt.svg" alt="assets/images/roundovt.svg">
+                        Lorem, ipsum dolorcupiditate in iure dolores nesciunt voluptas suscipit
+                        nisi mollitia officia corporis?
+                    </li>
+                    <li class="donate-type-item">
+                        <img src="assets/images/roundtruc.svg" alt="assets/images/roundtruc.svg">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis te
+                    </li>
+                    <li class="donate-type-item">
+                        <img src="assets/images/roundtruck.svg" alt="assets/images/roundtruck.svg">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis tempora deserunt, nulla minus
+                        magni consectetur
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contactUs">
+        <div class="container">
+            <div class="contactUs">
+                <div class="contactUs-wrapper">
+                    <h2 class="contactUs-title">Help Save The Lives Of Our Nation’s Children!</h2>
+                    <div class="contactUs-desc">
+                        <p class="contactUs-text">
+                            Click The Button Below Or Call 111-111-1111.
+                        </p>
+                        <div class="btn-wrap">
+                            <a class="link-btn" href="#">Donate Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="helpthem">
+        <div class="helpthem">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="helpthem-title">
+                            Help Us Help Them
+                        </h2>
+                        <p class="helpthem-subtitle">
+                            Car for Kids is one of the trusted legitimate car donation programs that seeks to
+                            uplift
+                            children all over the United States. Our mission is to transform the lives of our nation’s
+                            children
+                            and their families. Your vehicle donation becomes critical funding for countless services,
+                            such as
+                            medical treatment, access to free educational and social service resources, emotional
+                            well-being
+                            projects, and essential quality of life programs.
+                        </p>
+                        <div class="btn-wrap">
+                            <a class="link-btn" href="#">Be a Local Hero</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <ul class="item-lists">
+                            <li class="list-item"><img src="assets/images/kid.jpg" alt="assets/images/kid.jpg"></li>
+                            <li class="list-item"><img src="assets/images/kid00.jpg" alt="assets/images/kid00.jpg"></li>
+                            <li class="list-item"><img src="assets/images/kid12.jpg" alt="assets/images/kid12.jpg"></li>
+                            <li class="list-item"><img src="assets/images/kids-24.jpg" alt="assets/images/kids-24.jpg">
+                            </li>
+                            <li class="list-item"><img src="assets/images/kids-3.jpg" alt="assets/images/kids-3.jpg">
+                            </li>
+                            <li class="list-item"><img src="assets/images/kids112.jpg" alt="assets/images/kids112.jpg">
+                            </li>
+                            <li class="list-item"><img src="assets/images/kids22.jpg" alt="assets/images/kids22.jpg">
+                            </li>
+                            <li class="list-item"><img src="assets/images/kids12.jpg" alt="assets/images/kids12.jpg">
+                            </li>
+                            <li class="list-item"><img src="assets/images/kids112.jpg" alt="assets/images/kids112.jpg">
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="locateUs">
+            <div class="container">
+                <h2 class="locateUs-title">
+                    Kids Car Donations operates in all 50 states.
+                </h2>
+                <p class="sub-title">
+                    For more information regarding the car donation process in your area, click on your state below!
+                </p>
+
+
+                <div class="states">
+                    <ul class="state-items">
+                        <li class="state-item">
+                            <a href="#">Alabama</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">Alaska</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">Arizona</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">Arkansas</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">California</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">Colorado</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">Connecticut</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">Delaware</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">District of Columbia</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">Florida</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">Georgia</a>
+                        </li>
+                        <li class="state-item">
+                            <a href="#">Hawaii</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class=" container">
+            <div class="row">
+                <div class="col-md-2 col-sm-6">
+                    <div class="footer-logo">
+                        <img src="assets/images/default-logo.png" alt="footer logo">
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h5 class="footer-title"> Quick Links</h5>
+                    <ul class="footer-top-items">
+                        <li class="footer-top-item"> <a href="#">Home</a></li>
+                        <li class="footer-top-item"> <a href="#">About</a></li>
+                        <li class="footer-top-item"> <a href="#">Locations</a></li>
+                        <li class="footer-top-item"> <a href="#">FAQS</a></li>
+                        <li class="footer-top-item"> <a href="#">Contact</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h5 class="footer-title">Accepted Vehicles</h5>
+                    <ul class="footer-top-items">
+                        <li class="footer-top-item"> <a href="#">Commuter Vehicale</a></li>
+                        <li class="footer-top-item"> <a href="#">Watercraft Vehicles </a></li>
+                        <li class="footer-top-item"> <a href="#">Recreational Vehicles </a></li>
+                        <li class="footer-top-item"> <a href="#">Specialty Vehicles </a></li>
+                        <li class="footer-top-item"> <a href="#">Fleet Vehicles</a></li>
+                        <li class="footer-top-item"> <a href="#">Fleet Vehicles</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 col-sm-6">
+                    <h5 class="footer-title"> About Car for Kids</h5>
+                    <ul class="footer-top-items">
+                        <li class="footer-top-item"> <a href="#"> Our Nonprofit Partne </a></li>
+                        <li class="footer-top-item"> <a href="#"> Why Choose Us</a></li>
+
+                    </ul>
+                    <h5 class="footer-title"> Join Car for Kids </h5>
+                    <ul class="footer-top-items">
+                        <li class="footer-top-item"> <a href="#"> Nonprofit Organization Signup</a>
+                        </li>
+                        <li class="footer-top-item"> <a href="#"> Tow Company Application</a></li>
+
+                    </ul>
+
+
+
+
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <h5 class="footer-title">Vehicle Titles By State</h5>
+                    <ul class="menu-titles-items">
+                        <li class="menu-titles-item"><a href="#">Al</a></li>
+                        <li class="menu-titles-item"><a href="#"> AK</a></li>
+                        <li class="menu-titles-item"><a href="#"> AZ</a></li>
+                        <li class="menu-titles-item"><a href="#"> AR</a></li>
+                        <li class="menu-titles-item"><a href="#"> CA</a></li>
+                        <li class="menu-titles-item"><a href="#"> CO</a></li>
+                        <li class="menu-titles-item"><a href="#"> CT</a></li>
+                        <li class="menu-titles-item"><a href="#"> DC</a></li>
+                        <li class="menu-titles-item"><a href="#"> DE</a></li>
+                        <li class="menu-titles-item"><a href="#"> CT</a></li>
+                        <li class="menu-titles-item"><a href="#"> FL</a></li>
+                        <li class="menu-titles-item"><a href="#"> GA</a></li>
+                        <li class="menu-titles-item"><a href="#"> HI</a></li>
+                        <li class="menu-titles-item"><a href="#"> ID</a></li>
+                        <li class="menu-titles-item"><a href="#"> IL</a></li>
+                        <li class="menu-titles-item"><a href="#"> IN</a></li>
+                        <li class="menu-titles-item"><a href="#"> IA</a></li>
+                        <li class="menu-titles-item"><a href="#"> KS</a></li>
+                        <li class="menu-titles-item"><a href="#"> KY</a></li>
+                        <li class="menu-titles-item"><a href="#"> LA</a></li>
+                        <li class="menu-titles-item"><a href="#"> ME</a></li>
+                        <li class="menu-titles-item"><a href="#"> MA</a></li>
+                        <li class="menu-titles-item"><a href="#"> MD</a></li>
+                        <li class="menu-titles-item"><a href="#"> MI</a></li>
+                        <li class="menu-titles-item"><a href="#"> MN</a></li>
+                        <li class="menu-titles-item"><a href="#"> MS</a></li>
+                        <li class="menu-titles-item"><a href="#"> MO</a></li>
+                        <li class="menu-titles-item"><a href="#"> MT</a></li>
+                        <li class="menu-titles-item"><a href="#"> NE</a></li>
+
+                        <!-- NVNHNJNMNYNCNDOHOKORPARISCSDTNTXUTVTVAWAWVWIWY -->
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+
+
+                <ul class="footer-middle-items">
+                    <li class="footer-middle-item"><a href="#"> Privacy Policy</a></li>
+                    <li class="footer-middle-item"><a href="#"> Terms of Use</a></li>
+                    <li class="footer-middle-item"><a href="#"> Sitemap</a></li>
+                    <li class="footer-middle-item"><a href="#"> Report A Website Issue</a></li>
+
+                </ul>
+
+
+
+
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, voluptatum
+                        dolorem. Quam
+                        architecto tenetur quisquam inventore numquam, doloribus optio assumenda
+                        facere corporis ipsum
+                        vel error dolores repudiandae autem perferendis nulla!</p>
+                </div>
+                <div class="footer-copyright">
+                    <p> &copy; <script>
+                            document.write(new Date().getFullYear());
+                        </script> Car for Kids . All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+
+    <script>
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+
+        const tab = document.querySelectorAll('.donate-tabs li')
+        const activeTab = document.querySelectorAll('.donate-tabs li.active')
+        const vehicle = document.getElementById('vehicle-info');
+        const contact = document.getElementById('contact-info');
+        const veh = document.getElementById('inVe');
+        const con = document.getElementById('inCont');
+
+        for (let index = 0; index < tab.length; index++) {
+            const element = tab[index];
+            // console.log(element.classList.contains('active'))
+            element.addEventListener("click", function (e) {
+
+                for (let index = 0; index < tab.length; index++) {
+                    var elem = tab[index];
+                    var ac = elem.classList.contains('active')
+                    if (ac === true) {
+                        elem.classList.remove('active')
+                    }
+                }
+                element.classList.add('active')
+                // vehicle.innerHTML
+                if (element.dataset.name == 'car') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = `<div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="year">Year</label>
+                                <select class="form-control">
+                                    <option>Year</option>
+                                    <option>Unknown</option>
+                                    <option>2020</option>
+                                    <option>2019</option>
+                                    <option>2018</option>
+                                    <option>2017</option>
+                                    <option>2016</option>
+                                    <option>2015</option>
+                                    <option>2014</option>
+                                    <option>2013</option>
+                                    <option>2012</option>
+                                    <option>2011</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="make" class="form-group">
+                                <label for="exampleFormControlSelect1">Make</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Unknown</option>
+                                    <option>BMW</option>
+                                    <option>Audi</option>
+                                    <option>Honda</option>
+                                    <option>Toyota</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="model" class="form-group">
+                                <label for="exampleFormControlSelect1">Model</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Unknown</option>
+                                    <option>Z3</option>
+                                    <option>M4</option>
+                                    <option>S4</option>
+                                    <option>A8</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="mileage" class="form-group">
+                                <label for="exampleFormControlSelect1">Mileage</label>
+                                <input class="form-control" type="text" placeholder="Mileage">
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Does It Run?</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Title
+                                    Available?</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                 <option>Yes</option>
+                                 <option>No</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="linkBtn">
+                        <a onclick="clickNext(this)" type="submit" class="link-btn">Donate
+                            my vehicale</a>
+                    </div>`;
+                }
+
+                if (element.dataset.name == 'bike') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = `<div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="year">Year</label>
+                                <select class="form-control">
+                                    <option>Year</option>
+                                    <option>Unknown</option>
+                                    <option>2020</option>
+                                    <option>2019</option>
+                                    <option>2018</option>
+                                    <option>2017</option>
+                                    <option>2016</option>
+                                    <option>2015</option>
+                                    <option>2014</option>
+                                    <option>2013</option>
+                                    <option>2012</option>
+                                    <option>2011</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="make" class="form-group">
+                                <label for="exampleFormControlSelect1">Make</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Unknown</option>
+                                    <option>BMW</option>
+                                    <option>Audi</option>
+                                    <option>Honda</option>
+                                    <option>Toyota</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="model" class="form-group">
+                                <label for="exampleFormControlSelect1">Model</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Unknown</option>
+                                    <option>Z3</option>
+                                    <option>M4</option>
+                                    <option>S4</option>
+                                    <option>A8</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="mileage" class="form-group">
+                                <label for="exampleFormControlSelect1">Mileage</label>
+                                <input class="form-control" type="text" placeholder="Mileage">
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Does It Run?</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Title
+                                    Available?</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                     <option>Yes</option>
+                                     <option>No</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="linkBtn">
+                        <a onclick="clickNext(this)" type="submit" class="link-btn">Donate
+                            my vehicale</a>
+                    </div>`
+                }
+
+                if (element.dataset.name == 'boat') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = ` <div class="row">
+                        <div class="col-md-4">
+                            <div id="year" class="form-group">
+                                <label for="year">Year</label>
+                                <select class="form-control">
+                                    <option>Year</option>
+                                    <option>Unknown</option>
+                                    <option>2020</option>
+                                    <option>2019</option>
+                                    <option>2018</option>
+                                    <option>2017</option>
+                                    <option>2016</option>
+                                    <option>2015</option>
+                                    <option>2014</option>
+                                    <option>2013</option>
+                                    <option>2012</option>
+                                    <option>2011</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="make" class="form-group">
+                                <label for="exampleFormControlSelect1">Make</label>
+                                <input type="text" class="form-control" placeholder="Make">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="model" class="form-group">
+                                <label for="exampleFormControlSelect1">Model</label>
+                                <input type="text" class="form-control" placeholder="Model">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="model" class="form-group">
+                                <label for="Length">Length</label>
+                                <input type="text" class="form-control" placeholder="Length">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Does It Run?</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                   
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Title Available?</label>
+                                 <input type="text" class="form-control" placeholder="Title Available?">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="linkBtn">
+                        <a onclick="clickNext(this)" type="submit" class="link-btn">Donate
+                            my vehicale</a>
+                    </div>`
+                }
+
+                if (element.dataset.name == 'truck') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = `<div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="year">Year</label>
+                                <select class="form-control">
+                                    <option>Year</option>
+                                    <option>Unknown</option>
+                                    <option>2020</option>
+                                    <option>2019</option>
+                                    <option>2018</option>
+                                    <option>2017</option>
+                                    <option>2016</option>
+                                    <option>2015</option>
+                                    <option>2014</option>
+                                    <option>2013</option>
+                                    <option>2012</option>
+                                    <option>2011</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="make" class="form-group">
+                                <label for="exampleFormControlSelect1">Make</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Unknown</option>
+                                    <option>BMW</option>
+                                    <option>Audi</option>
+                                    <option>Honda</option>
+                                    <option>Toyota</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="model" class="form-group">
+                                <label for="exampleFormControlSelect1">Model</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Unknown</option>
+                                    <option>Z3</option>
+                                    <option>M4</option>
+                                    <option>S4</option>
+                                    <option>A8</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="mileage" class="form-group">
+                                <label for="exampleFormControlSelect1">Mileage</label>
+                                <input class="form-control" type="text" placeholder="Mileage">
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Does It Run?</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Title
+                                    Available?</label>
+                                <input class="form-control" placeholder="Type Here">
+                                   
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="linkBtn">
+                        <a onclick="clickNext(this)" type="submit" class="link-btn">Donate
+                            my vehicale</a>
+                    </div>`
+                }
+                if (element.dataset.name == 'other') {
+                    vehicle.innerHTML = ``;
+                    vehicle.innerHTML = `<div class="row">
+                        <div class="col-md-4">
+                            <div id="year" class="form-group">
+                                <label for="year">Year</label>
+                                <input type="text"  class="form-control"  placeholder="Year">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="make" class="form-group">
+                                <label for="exampleFormControlSelect1">Make</label>
+                                <input type="text" class="form-control" placeholder="Make">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="model" class="form-group">
+                                <label for="exampleFormControlSelect1">Model</label>
+                                 <input type="text" class="form-control" placeholder="Model">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="mileage" class="form-group">
+                                <label for="exampleFormControlSelect1">Mileage /Length</label>
+                                 <input type="text" class="form-control" placeholder="Mileage/Length">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Does It Run?</label>
+                                 <input type="text" class="form-control" placeholder="Does It Run?">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Title Available?</label>
+                                 <input type="text" class="form-control" placeholder="Title Available?">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="linkBtn">
+                        <a onclick="clickNext(this)" type="submit" class="link-btn">Donate
+                            my vehicale</a>
+                    </div> `
+                }
+
+                console.log(element.dataset.name)
+
+
+
+            });
+        }
+        // tab.click(function (i, elem) {
+        //     console.log(tab)
+        // });
+        // console.log(tab)
+
+        function clickNext(th) {
+            vehicle.classList.remove('active');
+            vehicle.classList.add('d-none');
+            veh.classList.remove('active');
+
+            contact.classList.remove('d-none');
+            contact.classList.add('active');
+            con.classList.add('active');
+        }
+
+        function goBack(th) {
+            contact.classList.remove('active');
+            con.classList.remove('active');
+            contact.classList.add('d-none');
+            vehicle.classList.remove('d-none');
+            vehicle.classList.add('active');
+            veh.classList.add('active');
+        }
+    </script>
+
+
+</body>
+
+</html>
